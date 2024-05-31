@@ -1,0 +1,8 @@
+NOTES.txt
+requirements2.txt
+app.py
+test.py
+.env
+
+newenv/
+faiss_index/

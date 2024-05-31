@@ -1,0 +1,12 @@
+streamlit
+google-generativeai
+python-dotenv
+langchain
+langchain_google_genai
+langchain-community
+
+pypdf
+chromadb==0.3.26
+
+pydantic
+faiss-cpu
