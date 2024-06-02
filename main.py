@@ -15,6 +15,7 @@ load_dotenv()
 os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
+
 # Read PDFs loaded and get all text from all pages in one text (context)
 def get_pdf_text(pdf_docs):
     text=""
