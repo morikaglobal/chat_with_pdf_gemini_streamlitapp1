@@ -89,7 +89,10 @@ def main():
 
     with st.sidebar:
         st.title("Upload your PDFs")
-        pdf_docs = st.file_uploader("Upload the PDF files you want answers to your questions from and lick on the Submit & Process Button", accept_multiple_files=True)
+        pdf_docs = st.file_uploader("Upload the PDF files you want answers to your questions from and click on the Submit & Process Button",
+        "If you don't have any PDFs in mind, try this:",
+        
+        accept_multiple_files=True)
         if st.button("Submit & Process"):
             with st.spinner("Processing..."):
                 raw_text = get_pdf_text(pdf_docs)
