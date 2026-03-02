@@ -14,3 +14,4 @@ chromadb==0.3.26
 pydantic
 faiss-cpu
 PyPDF2
+python>=3.11
