@@ -3,6 +3,7 @@ google-generativeai
 python-dotenv
 langchain
 langchain-classic
+langchain-core
 langchain_google_genai
 langchain-community
 langchain-text-splitters
