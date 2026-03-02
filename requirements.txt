@@ -2,6 +2,7 @@ streamlit
 google-generativeai
 python-dotenv
 langchain
+langchain-classic
 langchain_google_genai
 langchain-community
 langchain-text-splitters
